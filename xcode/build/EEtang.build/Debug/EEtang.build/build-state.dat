@@ -3,16 +3,27 @@ v6
 r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/Info.plist /Users/yiwenl/Documents/cinder/Etang/xcode/Info.plist
+cCpResource /Users/yiwenl/Documents/cinder/Etang/assets/videos build/Debug/EEtang.app/Contents/Resources/videos
+cCpResource /Users/yiwenl/Documents/cinder/Etang/assets/shaders build/Debug/EEtang.app/Contents/Resources/shaders
 cCpResource /Users/yiwenl/Documents/cinder/Etang/resources/CinderApp.icns build/Debug/EEtang.app/Contents/Resources/CinderApp.icns
+cCpResource /Users/yiwenl/Documents/cinder/Etang/assets/common build/Debug/EEtang.app/Contents/Resources/common
 cProcessPCH++ /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/EEtang_Prefix-dlarweeykeherwfgesvhlwbextwp/EEtang_Prefix.pch.pch EEtang_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/EEtang_Prefix-hekxtrmpunragvcohuuoduxqbikw/EEtang_Prefix.pch.pch EEtang_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.o /Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MathUtils.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneQuat.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/CinderFreenect.o /Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/CinderFreenect.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MeshUtils.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MeshUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/cameras.o /Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/freenect/cameras.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/core.o /Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/freenect/core.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Utils.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/View.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/View.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/GlobalSettings.o /Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/registration.o /Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/freenect/registration.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/tilt.o /Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/freenect/tilt.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Scene.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/usb_libusb10.o /Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/freenect/usb_libusb10.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneEtang.o /Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/MacOS/EEtang normal i386
 cTouch /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app
 
@@ -4181,6 +4192,11 @@ c0000000051780B7C0000000000000BA7
 t1366821756
 s2983
 
+N/Users/yiwenl/Development/Cinder/include/cinder/Camera.h
+c0000000051780B7C00000000000031A1
+t1366821756
+s12705
+
 N/Users/yiwenl/Development/Cinder/include/cinder/ChanTraits.h
 c0000000051780B7C0000000000000D42
 t1366821756
@@ -4326,6 +4342,11 @@ c0000000051780B7D00000000000008E9
 t1366821757
 s2281
 
+N/Users/yiwenl/Development/Cinder/include/cinder/TriMesh.h
+c0000000051780B7D00000000000037DF
+t1366821757
+s14303
+
 N/Users/yiwenl/Development/Cinder/include/cinder/Url.h
 c0000000051780B7D00000000000017F7
 t1366821757
@@ -4391,6 +4412,26 @@ c0000000051780B7E0000000000002552
 t1366821758
 s9554
 
+N/Users/yiwenl/Development/Cinder/include/cinder/gl/Fbo.h
+c0000000051780B7E0000000000003CD9
+t1366821758
+s15577
+
+N/Users/yiwenl/Development/Cinder/include/cinder/gl/GlslProg.h
+c0000000051780B7E00000000000016F7
+t1366821758
+s5879
+
+N/Users/yiwenl/Development/Cinder/include/cinder/gl/Texture.h
+c0000000051780B7E0000000000004B66
+t1366821758
+s19302
+
+N/Users/yiwenl/Development/Cinder/include/cinder/gl/Vbo.h
+c0000000051780B7E0000000000003C95
+t1366821758
+s15509
+
 N/Users/yiwenl/Development/Cinder/include/cinder/gl/gl.h
 c0000000051780B7E0000000000006469
 t1366821758
@@ -4400,6 +4441,21 @@ N/Users/yiwenl/Development/Cinder/lib/libcinder_d.a
 c0000000051E63958000000000178B4C0
 t1374042456
 s24687808
+
+N/Users/yiwenl/Documents/cinder/Etang/assets/common
+c000000005385063C0000000000000044
+t1401226812
+s68
+
+N/Users/yiwenl/Documents/cinder/Etang/assets/shaders
+c000000005385065E00000000000000AA
+t1401226846
+s170
+
+N/Users/yiwenl/Documents/cinder/Etang/assets/videos
+c00000000538506640000000000000066
+t1401226852
+s102
 
 N/Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/lib/macosx/libusb-1.0.a
 c000000005384F0E600000000000311F8
@@ -4487,9 +4543,89 @@ t1401221350
 s459637
 
 N/Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp
-c000000005384F0E60000000000000200
-t1401221350
-s512
+c000000005385087D0000000000000604
+t1401227389
+s1540
+
+N/Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.cpp
+c00000000538506A4000000000000006F
+t1401226916
+s111
+
+N/Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.h
+c00000000538506FD00000000000001E8
+t1401227005
+s488
+
+N/Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.cpp
+c000000005385083D0000000000000197
+t1401227325
+s407
+
+N/Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.h
+c00000000538507950000000000000207
+t1401227157
+s519
+
+N/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.cpp
+c000000005319F1770000000000000733
+t1394209143
+s1843
+
+N/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.h
+c000000005319F17700000000000002F1
+t1394209143
+s753
+
+N/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MeshUtils.cpp
+c00000000531DE549000000000000075B
+t1394468169
+s1883
+
+N/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MeshUtils.h
+c000000005319F17700000000000001C5
+t1394209143
+s453
+
+N/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.cpp
+c000000005319F1770000000000000375
+t1394209143
+s885
+
+N/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.h
+c000000005319F1770000000000000290
+t1394209143
+s656
+
+N/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.cpp
+c000000005319F17700000000000005F8
+t1394209143
+s1528
+
+N/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.h
+c000000005319F17700000000000002E4
+t1394209143
+s740
+
+N/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.cpp
+c000000005319F17700000000000003F4
+t1394209143
+s1012
+
+N/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.h
+c000000005319F1770000000000000287
+t1394209143
+s647
+
+N/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/View.cpp
+c000000005319F1770000000000000351
+t1394209143
+s849
+
+N/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/View.h
+c000000005319F17700000000000001FC
+t1394209143
+s508
 
 N/Users/yiwenl/Documents/cinder/Etang/xcode/EEtang_Prefix.pch
 c000000005384F0E6000000000000012D
@@ -4502,7 +4638,7 @@ t1401221350
 s1122
 
 N/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app
-t1401221401
+t1401227283
 s102
 
 N/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/Info.plist
@@ -4510,8 +4646,8 @@ t1401221380
 s1478
 
 N/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/MacOS/EEtang
-t1401221401
-s2761196
+t1401227393
+s4151000
 
 N/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/PkgInfo
 t1401221380
@@ -4521,18 +4657,62 @@ N/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/Reso
 t1401221380
 s459637
 
+N/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/Resources/common
+t1401226937
+s68
+
+N/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/Resources/shaders
+t1401226937
+s136
+
+N/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/Resources/videos
+t1401226937
+s68
+
 N/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/CinderFreenect.o
 t1401221396
 s644444
 
 N/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtang.LinkFileList
-c000000005384F1040000000000000316
-t1401221380
-s790
+c00000000538507D10000000000000697
+t1401227217
+s1687
 
 N/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.o
-t1401221396
-s1871684
+t1401227392
+s1965888
+
+N/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/GlobalSettings.o
+t1401227008
+s66836
+
+N/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MathUtils.o
+t1401226945
+s137652
+
+N/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MeshUtils.o
+t1401226945
+s514124
+
+N/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Scene.o
+t1401226947
+s1722504
+
+N/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneEtang.o
+t1401227392
+s173512
+
+N/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneQuat.o
+t1401226945
+s145308
+
+N/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Utils.o
+t1401226945
+s310664
+
+N/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/View.o
+t1401226947
+s1968836
 
 N/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/cameras.o
 t1401221395
@@ -4583,9 +4763,33 @@ r0
 CBuild AST from /Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp
 r0
 
+CBuild AST from /Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.cpp
+r0
+
+CBuild AST from /Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.cpp
+r0
+
+CBuild AST from /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.cpp
+r0
+
+CBuild AST from /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MeshUtils.cpp
+r0
+
+CBuild AST from /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.cpp
+r0
+
+CBuild AST from /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.cpp
+r0
+
+CBuild AST from /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.cpp
+r0
+
+CBuild AST from /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/View.cpp
+r0
+
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies98bd60b32835b941^6d1c61b32835b941^---0#1#1#--18"Check dependencies36"E13CA68C-94D5-4EBC-8AC2-2BAFD81095E4-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies884617ff3f35b941^b0a917ff3f35b941^---0#1#1#--18"Check dependencies36"C9920E94-7D82-4A9A-AFBB-54EB3A27F25A-
 
 CCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/CinderFreenect.o /Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/CinderFreenect.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s422914193.816752
@@ -4613,8 +4817,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile
 bFBB2A390-E460-41FF-B782-8AA0456671AD
 
 CCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.o /Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s422914193.816432
-e422914196.402734
+s422920191.103443
+e422920192.657955
 r1
 xCompileC
 xbuild/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.o
@@ -4625,8 +4829,159 @@ xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp
 d/Users/yiwenl/Development/Cinder/include/cinder/app/AppNative.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp193"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.o /Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerb822d1912835b941^0c77ca942835b941^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp0000000000000000^2972"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.o /Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yiwenl/Documents/cinder/Etang/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-generated-files.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-own-target-headers.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-all-target-headers.hmap -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-project-headers.hmap -iquote../../../../Development/Cinder/include -iquote../include -iquote../blocks/Cinder-Freenect/src -iquote../blocks/QuickTime/include -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/include -I../../../../Development/Cinder/boost -I../blocks/Cinder-Freenect/src/freenect -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources/i386 -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources -F/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/EEtang_Prefix-dlarweeykeherwfgesvhlwbextwp/EEtang_Prefix.pch -MMD -MT dependencies -MF /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.d --serialize-diagnostics /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.dia -c /Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp -o /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.o36"2AC50BA5-64BF-4A51-99DC-CF66F884D8FB-
-bFBB2A390-E460-41FF-B782-8AA0456671AD
+d/Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.h
+d/Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.h
+d/Users/yiwenl/Development/Cinder/include/cinder/gl/Texture.h
+d/Users/yiwenl/Development/Cinder/include/cinder/gl/Fbo.h
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.h
+d/Users/yiwenl/Development/Cinder/include/cinder/Camera.h
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.h
+d/Users/yiwenl/Development/Cinder/include/cinder/params/Params.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp193"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.o /Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler12a01aff3f35b941^f182a8004035b941^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp0000000000000000^2972"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.o /Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yiwenl/Documents/cinder/Etang/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-generated-files.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-own-target-headers.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-all-target-headers.hmap -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-project-headers.hmap -iquote../../../../Development/Cinder/include -iquote../include -iquote../blocks/Cinder-Freenect/src -iquote../blocks/QuickTime/include -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/include -I../../../../Development/Cinder/boost -I../blocks/Cinder-Freenect/src/freenect -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources/i386 -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources -F/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/EEtang_Prefix-dlarweeykeherwfgesvhlwbextwp/EEtang_Prefix.pch -MMD -MT dependencies -MF /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.d --serialize-diagnostics /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.dia -c /Users/yiwenl/Documents/cinder/Etang/src/EEtangApp.cpp -o /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.o36"39E56E48-A217-48D5-8291-5420B314D94E-
+b57E68774-1426-4208-88C9-61832139770A
+
+CCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/GlobalSettings.o /Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s422919807.843692
+e422919808.610244
+r1
+xCompileC
+xbuild/EEtang.build/Debug/EEtang.build/Objects-normal/i386/GlobalSettings.o
+x/Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.cpp
+d/Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.cpp203"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/GlobalSettings.o /Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilere910d87f3e35b941^213a9c803e35b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.cpp0000000000000000^3002"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/GlobalSettings.o /Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yiwenl/Documents/cinder/Etang/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-generated-files.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-own-target-headers.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-all-target-headers.hmap -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-project-headers.hmap -iquote../../../../Development/Cinder/include -iquote../include -iquote../blocks/Cinder-Freenect/src -iquote../blocks/QuickTime/include -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/include -I../../../../Development/Cinder/boost -I../blocks/Cinder-Freenect/src/freenect -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources/i386 -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources -F/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/EEtang_Prefix-dlarweeykeherwfgesvhlwbextwp/EEtang_Prefix.pch -MMD -MT dependencies -MF /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/GlobalSettings.d --serialize-diagnostics /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/GlobalSettings.dia -c /Users/yiwenl/Documents/cinder/Etang/src/GlobalSettings.cpp -o /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/GlobalSettings.o36"5FFFC04E-E812-4BED-97F9-22A8CE9B74A2-
+b74A0F237-7508-4456-9B00-25C9A30ED05C
+
+CCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MathUtils.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s422919737.184222
+e422919745.815042
+r1
+xCompileC
+xbuild/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MathUtils.o
+x/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.cpp
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.cpp202"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MathUtils.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler0c402f393e35b941^5fb3d0413e35b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.cpp0000000000000000^2990"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MathUtils.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yiwenl/Documents/cinder/Etang/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-generated-files.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-own-target-headers.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-all-target-headers.hmap -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-project-headers.hmap -iquote../../../../Development/Cinder/include -iquote../include -iquote../blocks/Cinder-Freenect/src -iquote../blocks/QuickTime/include -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/include -I../../../../Development/Cinder/boost -I../blocks/Cinder-Freenect/src/freenect -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources/i386 -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources -F/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/EEtang_Prefix-dlarweeykeherwfgesvhlwbextwp/EEtang_Prefix.pch -MMD -MT dependencies -MF /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MathUtils.d --serialize-diagnostics /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MathUtils.dia -c /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.cpp -o /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MathUtils.o36"25E90AAE-B049-4CEB-9EF0-27A8F1DFF492-
+b4365BFD0-A318-4EEF-94FE-8BEB845A2633
+
+CCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MeshUtils.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MeshUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s422919737.184683
+e422919745.916106
+r1
+xCompileC
+xbuild/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MeshUtils.o
+x/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MeshUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MeshUtils.cpp
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MeshUtils.h
+d/Users/yiwenl/Development/Cinder/include/cinder/gl/Vbo.h
+d/Users/yiwenl/Development/Cinder/include/cinder/TriMesh.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MeshUtils.cpp202"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MeshUtils.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MeshUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerc5572f393e35b941^cadf0d423e35b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MeshUtils.cpp0000000000000000^2990"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MeshUtils.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MeshUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yiwenl/Documents/cinder/Etang/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-generated-files.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-own-target-headers.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-all-target-headers.hmap -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-project-headers.hmap -iquote../../../../Development/Cinder/include -iquote../include -iquote../blocks/Cinder-Freenect/src -iquote../blocks/QuickTime/include -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/include -I../../../../Development/Cinder/boost -I../blocks/Cinder-Freenect/src/freenect -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources/i386 -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources -F/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/EEtang_Prefix-dlarweeykeherwfgesvhlwbextwp/EEtang_Prefix.pch -MMD -MT dependencies -MF /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MeshUtils.d --serialize-diagnostics /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MeshUtils.dia -c /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MeshUtils.cpp -o /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MeshUtils.o36"D48B8C5E-2D78-410B-8C73-18856C532872-
+b4365BFD0-A318-4EEF-94FE-8BEB845A2633
+
+CCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Scene.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s422919737.185723
+e422919747.326444
+r1
+xCompileC
+xbuild/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Scene.o
+x/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.cpp
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.h
+d/Users/yiwenl/Development/Cinder/include/cinder/Camera.h
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.cpp194"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Scene.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler129f2f393e35b941^039353433e35b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.cpp0000000000000000^2966"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Scene.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yiwenl/Documents/cinder/Etang/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-generated-files.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-own-target-headers.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-all-target-headers.hmap -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-project-headers.hmap -iquote../../../../Development/Cinder/include -iquote../include -iquote../blocks/Cinder-Freenect/src -iquote../blocks/QuickTime/include -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/include -I../../../../Development/Cinder/boost -I../blocks/Cinder-Freenect/src/freenect -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources/i386 -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources -F/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/EEtang_Prefix-dlarweeykeherwfgesvhlwbextwp/EEtang_Prefix.pch -MMD -MT dependencies -MF /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Scene.d --serialize-diagnostics /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Scene.dia -c /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.cpp -o /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Scene.o36"C2A07347-4A4C-4123-B9F1-C038889026B0-
+b4365BFD0-A318-4EEF-94FE-8BEB845A2633
+
+CCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneEtang.o /Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s422920191.105832
+e422920192.148374
+r1
+xCompileC
+xbuild/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneEtang.o
+x/Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.cpp
+d/Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.h
+d/Users/yiwenl/Development/Cinder/include/cinder/gl/Texture.h
+d/Users/yiwenl/Development/Cinder/include/cinder/gl/Fbo.h
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Scene.h
+d/Users/yiwenl/Development/Cinder/include/cinder/Camera.h
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.h
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.cpp195"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneEtang.o /Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerae2a1bff3f35b941^a94e2b004035b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.cpp0000000000000000^2978"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneEtang.o /Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yiwenl/Documents/cinder/Etang/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-generated-files.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-own-target-headers.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-all-target-headers.hmap -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-project-headers.hmap -iquote../../../../Development/Cinder/include -iquote../include -iquote../blocks/Cinder-Freenect/src -iquote../blocks/QuickTime/include -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/include -I../../../../Development/Cinder/boost -I../blocks/Cinder-Freenect/src/freenect -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources/i386 -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources -F/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/EEtang_Prefix-dlarweeykeherwfgesvhlwbextwp/EEtang_Prefix.pch -MMD -MT dependencies -MF /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneEtang.d --serialize-diagnostics /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneEtang.dia -c /Users/yiwenl/Documents/cinder/Etang/src/SceneEtang.cpp -o /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneEtang.o36"CCCDCA63-034E-4473-8C64-895205213EF9-
+b57E68774-1426-4208-88C9-61832139770A
+
+CCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneQuat.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s422919737.184411
+e422919745.815038
+r1
+xCompileC
+xbuild/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneQuat.o
+x/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.cpp
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.cpp202"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneQuat.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler7c452f393e35b941^c1acd0413e35b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.cpp0000000000000000^2990"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneQuat.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yiwenl/Documents/cinder/Etang/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-generated-files.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-own-target-headers.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-all-target-headers.hmap -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-project-headers.hmap -iquote../../../../Development/Cinder/include -iquote../include -iquote../blocks/Cinder-Freenect/src -iquote../blocks/QuickTime/include -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/include -I../../../../Development/Cinder/boost -I../blocks/Cinder-Freenect/src/freenect -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources/i386 -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources -F/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/EEtang_Prefix-dlarweeykeherwfgesvhlwbextwp/EEtang_Prefix.pch -MMD -MT dependencies -MF /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneQuat.d --serialize-diagnostics /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneQuat.dia -c /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/SceneQuat.cpp -o /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneQuat.o36"926DFA1C-A8D9-48E0-B485-38EF8B8C84C9-
+b4365BFD0-A318-4EEF-94FE-8BEB845A2633
+
+CCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Utils.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s422919737.185013
+e422919745.814980
+r1
+xCompileC
+xbuild/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Utils.o
+x/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.cpp
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.h
+d/Users/yiwenl/Development/Cinder/include/cinder/gl/Texture.h
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/MathUtils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.cpp194"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Utils.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler19732f393e35b941^01a6d0413e35b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.cpp0000000000000000^2966"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Utils.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yiwenl/Documents/cinder/Etang/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-generated-files.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-own-target-headers.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-all-target-headers.hmap -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-project-headers.hmap -iquote../../../../Development/Cinder/include -iquote../include -iquote../blocks/Cinder-Freenect/src -iquote../blocks/QuickTime/include -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/include -I../../../../Development/Cinder/boost -I../blocks/Cinder-Freenect/src/freenect -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources/i386 -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources -F/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/EEtang_Prefix-dlarweeykeherwfgesvhlwbextwp/EEtang_Prefix.pch -MMD -MT dependencies -MF /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Utils.d --serialize-diagnostics /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Utils.dia -c /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/Utils.cpp -o /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Utils.o36"14CB9C46-3283-4139-AE21-83C6744C2072-
+b4365BFD0-A318-4EEF-94FE-8BEB845A2633
+
+CCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/View.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/View.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s422919737.185230
+e422919747.427687
+r1
+xCompileC
+xbuild/EEtang.build/Debug/EEtang.build/Objects-normal/i386/View.o
+x/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/View.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/View.cpp
+d/Users/yiwenl/Documents/cinder/Etang/src/bongiovi/View.h
+d/Users/yiwenl/Development/Cinder/include/cinder/gl/GlslProg.h
+d/Users/yiwenl/Development/Cinder/include/cinder/gl/Vbo.h
+d/Users/yiwenl/Development/Cinder/include/cinder/TriMesh.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/View.cpp192"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/View.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/View.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerdd7c2f393e35b941^677e6d433e35b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/yiwenl/Documents/cinder/Etang/src/bongiovi/View.cpp0000000000000000^2960"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/View.o /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/View.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yiwenl/Documents/cinder/Etang/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-generated-files.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-own-target-headers.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-all-target-headers.hmap -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-project-headers.hmap -iquote../../../../Development/Cinder/include -iquote../include -iquote../blocks/Cinder-Freenect/src -iquote../blocks/QuickTime/include -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/include -I../../../../Development/Cinder/boost -I../blocks/Cinder-Freenect/src/freenect -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources/i386 -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources -F/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/EEtang_Prefix-dlarweeykeherwfgesvhlwbextwp/EEtang_Prefix.pch -MMD -MT dependencies -MF /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/View.d --serialize-diagnostics /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/View.dia -c /Users/yiwenl/Documents/cinder/Etang/src/bongiovi/View.cpp -o /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/View.o36"6B0C2F65-BCE0-4898-B9B0-26D5B67F6A5C-
+b4365BFD0-A318-4EEF-94FE-8BEB845A2633
 
 CCompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/cameras.o /Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/freenect/cameras.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
 s422914193.817785
@@ -4738,6 +5093,36 @@ d/Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/freenect/loader
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/freenect/usb_libusb10.c227"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/usb_libusb10.o /Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/freenect/usb_libusb10.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler8331d2912835b941^024819932835b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/freenect/usb_libusb10.c0000000000000000^2893"CompileC build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/usb_libusb10.o /Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/freenect/usb_libusb10.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yiwenl/Documents/cinder/Etang/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-generated-files.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-own-target-headers.hmap -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-all-target-headers.hmap -iquote /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-project-headers.hmap -iquote../../../../Development/Cinder/include -iquote../include -iquote../blocks/Cinder-Freenect/src -iquote../blocks/QuickTime/include -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/include -I../../../../Development/Cinder/boost -I../blocks/Cinder-Freenect/src/freenect -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources/i386 -I/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/DerivedSources -F/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/EEtang_Prefix-hekxtrmpunragvcohuuoduxqbikw/EEtang_Prefix.pch -MMD -MT dependencies -MF /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/usb_libusb10.d --serialize-diagnostics /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/usb_libusb10.dia -c /Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/src/freenect/usb_libusb10.c -o /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/usb_libusb10.o36"D377E0CC-AD43-42E5-A18E-67DE54DCFE82-
 bFBB2A390-E460-41FF-B782-8AA0456671AD
 
+CCpResource /Users/yiwenl/Documents/cinder/Etang/assets/common build/Debug/EEtang.app/Contents/Resources/common
+s422919737.167164
+e422919737.168126
+r1
+xCpResource
+x/Users/yiwenl/Documents/cinder/Etang/assets/common
+xbuild/Debug/EEtang.app/Contents/Resources/common
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug/EEtang.app/Contents/Resources/common110"CpResource /Users/yiwenl/Documents/cinder/Etang/assets/common build/Debug/EEtang.app/Contents/Resources/common2ae02a393e35b941^e14060393e35b941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/Resources/common003420f4dcffdf42^409"CpResource /Users/yiwenl/Documents/cinder/Etang/assets/common build/Debug/EEtang.app/Contents/Resources/common    cd /Users/yiwenl/Documents/cinder/Etang/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yiwenl/Documents/cinder/Etang/assets/common /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/Resources36"C834292E-B38C-45E5-A402-B8626FE052DA-
+b4365BFD0-A318-4EEF-94FE-8BEB845A2633
+
+CCpResource /Users/yiwenl/Documents/cinder/Etang/assets/shaders build/Debug/EEtang.app/Contents/Resources/shaders
+s422919737.166763
+e422919737.168137
+r1
+xCpResource
+x/Users/yiwenl/Documents/cinder/Etang/assets/shaders
+xbuild/Debug/EEtang.app/Contents/Resources/shaders
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug/EEtang.app/Contents/Resources/shaders112"CpResource /Users/yiwenl/Documents/cinder/Etang/assets/shaders build/Debug/EEtang.app/Contents/Resources/shaders48c22a393e35b941^894560393e35b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/Resources/shaders003420f4dcffdf42^412"CpResource /Users/yiwenl/Documents/cinder/Etang/assets/shaders build/Debug/EEtang.app/Contents/Resources/shaders    cd /Users/yiwenl/Documents/cinder/Etang/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yiwenl/Documents/cinder/Etang/assets/shaders /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/Resources36"D91807CF-FD17-4370-A95B-913173F96DB3-
+b4365BFD0-A318-4EEF-94FE-8BEB845A2633
+
+CCpResource /Users/yiwenl/Documents/cinder/Etang/assets/videos build/Debug/EEtang.app/Contents/Resources/videos
+s422919737.166576
+e422919737.167604
+r1
+xCpResource
+x/Users/yiwenl/Documents/cinder/Etang/assets/videos
+xbuild/Debug/EEtang.app/Contents/Resources/videos
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug/EEtang.app/Contents/Resources/videos110"CpResource /Users/yiwenl/Documents/cinder/Etang/assets/videos build/Debug/EEtang.app/Contents/Resources/videos80b52a393e35b941^0d3760393e35b941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/Resources/videos003420f4dcffdf42^409"CpResource /Users/yiwenl/Documents/cinder/Etang/assets/videos build/Debug/EEtang.app/Contents/Resources/videos    cd /Users/yiwenl/Documents/cinder/Etang/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yiwenl/Documents/cinder/Etang/assets/videos /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/Resources36"2E44297D-CD20-4D9F-8D24-8043C1405364-
+b4365BFD0-A318-4EEF-94FE-8BEB845A2633
+
 CCpResource /Users/yiwenl/Documents/cinder/Etang/resources/CinderApp.icns build/Debug/EEtang.app/Contents/Resources/CinderApp.icns
 s422914180.341678
 e422914180.343521
@@ -4749,8 +5134,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy bu
 bFBB2A390-E460-41FF-B782-8AA0456671AD
 
 CLd /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/MacOS/EEtang normal i386
-s422914196.966305
-e422914201.131800
+s422920192.662723
+e422920193.468930
 r1
 xLd
 x/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/MacOS/EEtang
@@ -4759,11 +5144,19 @@ xi386
 d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtang.LinkFileList
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
 d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.o
+d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MathUtils.o
+d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneQuat.o
 d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/CinderFreenect.o
+d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/MeshUtils.o
 d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/cameras.o
 d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/core.o
+d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneEtang.o
+d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Utils.o
+d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/View.o
+d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/GlobalSettings.o
 d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/registration.o
 d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/tilt.o
+d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/Scene.o
 d/Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/usb_libusb10.o
 d/Users/yiwenl/Development/Cinder/lib/libcinder_d.a
 d/Users/yiwenl/Documents/cinder/Etang/blocks/Cinder-Freenect/lib/macosx/libusb-1.0.a
@@ -4781,9 +5174,13 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.eprintf.a
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
@@ -4813,10 +5210,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
@@ -4843,8 +5236,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/MacOS/EEtang59"Ld build/Debug/EEtang.app/Contents/MacOS/EEtang normal i386527df7942835b941^d3be21992835b941^---0#0#1#--1220"Ld build/Debug/EEtang.app/Contents/MacOS/EEtang normal i386    cd /Users/yiwenl/Documents/cinder/Etang/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -F/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -filelist /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtang.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Development/Cinder/lib/libcinder_d.a ../blocks/Cinder-Freenect/lib/macosx/libusb-1.0.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -framework IOKit -framework QuickTime -Xlinker -dependency_info -Xlinker /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtang_dependency_info.dat -o /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/MacOS/EEtang36"B62CB5EC-195C-4E72-AAF2-43FF664FF371-
-bFBB2A390-E460-41FF-B782-8AA0456671AD
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/MacOS/EEtang59"Ld build/Debug/EEtang.app/Contents/MacOS/EEtang normal i386f0bfa9004035b941^d80c78014035b941^---0#0#1#--1220"Ld build/Debug/EEtang.app/Contents/MacOS/EEtang normal i386    cd /Users/yiwenl/Documents/cinder/Etang/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -F/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug -filelist /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtang.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Development/Cinder/lib/libcinder_d.a ../blocks/Cinder-Freenect/lib/macosx/libusb-1.0.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -framework IOKit -framework QuickTime -Xlinker -dependency_info -Xlinker /Users/yiwenl/Documents/cinder/Etang/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtang_dependency_info.dat -o /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/MacOS/EEtang36"F84E0280-FEEA-4EC1-8860-A4EC119E9642-
+b57E68774-1426-4208-88C9-61832139770A
 
 CProcessInfoPlistFile /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app/Contents/Info.plist /Users/yiwenl/Documents/cinder/Etang/xcode/Info.plist
 s422914180.310922
@@ -5684,11 +6077,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precomp
 bFBB2A390-E460-41FF-B782-8AA0456671AD
 
 CTouch /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app
-s422914201.133240
-e422914201.163301
+s422920193.482622
+e422920193.489750
 r1
 xTouch
 x/Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Touch /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app28"Touch build/Debug/EEtang.app742922992835b941^ead029992835b941^---0#0#1#--167"Touch build/Debug/EEtang.app    cd /Users/yiwenl/Documents/cinder/Etang/xcode    /usr/bin/touch -c /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app36"35353EB3-669A-43BE-B17D-5D606D3531DE-
-bFBB2A390-E460-41FF-B782-8AA0456671AD
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Touch /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app28"Touch build/Debug/EEtang.appc6a47b014035b941^4a627d014035b941^---0#0#1#--167"Touch build/Debug/EEtang.app    cd /Users/yiwenl/Documents/cinder/Etang/xcode    /usr/bin/touch -c /Users/yiwenl/Documents/cinder/Etang/xcode/build/Debug/EEtang.app36"0543C29F-8C60-4EB8-95FF-A22C9C6CDA88-
+b57E68774-1426-4208-88C9-61832139770A
 
