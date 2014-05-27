@@ -14,6 +14,7 @@
 #include "cinder/gl/Texture.h"
 #include "cinder/gl/Fbo.h"
 #include "Scene.h"
+#include "ViewBg.h"
 
 using namespace bongiovi;
 
@@ -26,6 +27,9 @@ public:
 private:
     void                    _initTextures();
     void                    _initViews();
+    
+    ViewBg*                 _vBg;
+    gl::TextureRef          _texBg;
 };
 
 #endif /* defined(__EEtang__SceneEtang__) */

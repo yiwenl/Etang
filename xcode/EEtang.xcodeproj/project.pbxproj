@@ -29,6 +29,7 @@
 		8514E55419353E0600F046B2 /* videos in Resources */ = {isa = PBXBuildFile; fileRef = 8514E55119353E0600F046B2 /* videos */; };
 		8514E55719353E2400F046B2 /* GlobalSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8514E55519353E2400F046B2 /* GlobalSettings.cpp */; };
 		8514E55B19353EFF00F046B2 /* SceneEtang.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8514E55919353EFF00F046B2 /* SceneEtang.cpp */; };
+		8514E55E1935437300F046B2 /* ViewBg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8514E55C1935437300F046B2 /* ViewBg.cpp */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A251217EE4BB4D0ABD13C725 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D827D5CEC7490CAE105478 /* IOKit.framework */; };
 		A603FA08E0854115A1ED52E3 /* tilt.c in Sources */ = {isa = PBXBuildFile; fileRef = 5292147A41104C9BA364A95C /* tilt.c */; };
@@ -75,6 +76,8 @@
 		8514E55619353E2400F046B2 /* GlobalSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobalSettings.h; path = ../src/GlobalSettings.h; sourceTree = "<group>"; };
 		8514E55919353EFF00F046B2 /* SceneEtang.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneEtang.cpp; path = ../src/SceneEtang.cpp; sourceTree = "<group>"; };
 		8514E55A19353EFF00F046B2 /* SceneEtang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneEtang.h; path = ../src/SceneEtang.h; sourceTree = "<group>"; };
+		8514E55C1935437300F046B2 /* ViewBg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewBg.cpp; path = ../src/views/ViewBg.cpp; sourceTree = "<group>"; };
+		8514E55D1935437300F046B2 /* ViewBg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewBg.h; path = ../src/views/ViewBg.h; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* EEtang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EEtang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B6B602B5164B80AEB995C8 /* core.c */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = core.c; path = "../blocks/Cinder-Freenect/src/freenect/core.c"; sourceTree = "<group>"; };
 		CD15615AAED74D1E8B0DDA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -178,6 +181,7 @@
 				47E6C99F2800413481C4F784 /* Resources.h */,
 				EC3422D68E404504AA72D4DC /* EEtang_Prefix.pch */,
 				8514E55A19353EFF00F046B2 /* SceneEtang.h */,
+				8514E55D1935437300F046B2 /* ViewBg.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -228,6 +232,7 @@
 		8514E55819353E5600F046B2 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				8514E55C1935437300F046B2 /* ViewBg.cpp */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -343,6 +348,7 @@
 				A603FA08E0854115A1ED52E3 /* tilt.c in Sources */,
 				8514E54B19353DFB00F046B2 /* Scene.cpp in Sources */,
 				118A35717446455DA76DBEE6 /* usb_libusb10.c in Sources */,
+				8514E55E1935437300F046B2 /* ViewBg.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
