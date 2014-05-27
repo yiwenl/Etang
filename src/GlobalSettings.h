@@ -22,7 +22,8 @@ class GlobalSettings {
     };
     
     
-    Vec2f pos;
+    Vec2f               pos;
+    bool                isMouseDown;
     
     private :
     GlobalSettings() {};

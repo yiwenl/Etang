@@ -36,6 +36,9 @@ void EEtangApp::setup() {
     
     _scene = new SceneEtang();
     _params = params::InterfaceGl::create( "Etang", Vec2i( 300, getWindowHeight()-30 ) );
+    _params->addText("Touch Position : ");
+    _params->addParam( "Touch X", &GlobalSettings::getInstance().pos.x);
+    _params->addParam( "Touch Y", &GlobalSettings::getInstance().pos.y);
 }
 
 void EEtangApp::update() {
@@ -54,19 +57,20 @@ void EEtangApp::mouseWheel( MouseEvent event ){
 }
 
 void EEtangApp::mouseDown( MouseEvent event ){
-//    _scene->sceneQuat->mouseDown(event.getPos());
+    GlobalSettings::getInstance().pos.set(event.getPos());
+    GlobalSettings::getInstance().isMouseDown = true;
 }
 
 void EEtangApp::mouseUp( MouseEvent event ){
-//    _scene->sceneQuat->mouseUp(event.getPos());
+    GlobalSettings::getInstance().pos.set(event.getPos());
+    GlobalSettings::getInstance().isMouseDown = false;
 }
 
 void EEtangApp::mouseDrag( MouseEvent event ){
-//    _scene->sceneQuat->mouseDrag(event.getPos());
+    GlobalSettings::getInstance().pos.set(event.getPos());
 }
 
 void EEtangApp::mouseMove( MouseEvent event ){
-//    _scene->sceneQuat->mouseMove(event.getPos());
 }
 
 CINDER_APP_NATIVE( EEtangApp, RendererGl )
