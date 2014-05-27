@@ -4,3 +4,16 @@
 xcode/build/
 
 /.DS_Store
+
+/xcode/.DS_Store
+/xcode/build/Debug/EEtang.app/Contents/MacOS/EEtang
+/xcode/build/EEtang.build/Debug/EEtang.build/build-state.dat
+/xcode/build/EEtang.build/Debug/EEtang.build/EEtang-project-headers.hmap
+/xcode/build/EEtang.build/Debug/EEtang.build/EEtang.dep
+/xcode/build/EEtang.build/Debug/EEtang.build/EEtang.hmap
+/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtang.LinkFileList
+/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtang_dependency_info.dat
+/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.d
+/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/EEtangApp.o
+/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneEtang.d
+/xcode/build/EEtang.build/Debug/EEtang.build/Objects-normal/i386/SceneEtang.o
