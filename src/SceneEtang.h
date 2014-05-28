@@ -15,6 +15,7 @@
 #include "cinder/gl/Fbo.h"
 #include "Scene.h"
 #include "ViewBg.h"
+#include "ViewFish.h"
 
 using namespace bongiovi;
 

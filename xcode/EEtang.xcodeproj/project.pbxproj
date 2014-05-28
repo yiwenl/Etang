@@ -18,6 +18,8 @@
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		5B637C0E097442028F43D1D7 /* registration.c in Sources */ = {isa = PBXBuildFile; fileRef = 125A72DAA0BF4A6D908F12E7 /* registration.c */; };
 		5C6CC0FF98704EC4AD198119 /* EEtangApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A554334924D92A69B4829 /* EEtangApp.cpp */; };
+		8505BAF919354651005CAC1D /* TouchController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8505BAF719354651005CAC1D /* TouchController.cpp */; };
+		8505BAFC193546DC005CAC1D /* ViewFish.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8505BAFA193546DC005CAC1D /* ViewFish.cpp */; };
 		8514E54919353DFB00F046B2 /* MathUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8514E53D19353DFB00F046B2 /* MathUtils.cpp */; };
 		8514E54A19353DFB00F046B2 /* MeshUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8514E53F19353DFB00F046B2 /* MeshUtils.cpp */; };
 		8514E54B19353DFB00F046B2 /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8514E54119353DFB00F046B2 /* Scene.cpp */; };
@@ -57,6 +59,10 @@
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		6F1733D0180D42A096E0AC75 /* CinderFreenect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = CinderFreenect.cpp; path = "../blocks/Cinder-Freenect/src/CinderFreenect.cpp"; sourceTree = "<group>"; };
 		7C67EA45A98A4A9DA2776A74 /* CinderFreenect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CinderFreenect.h; path = "../blocks/Cinder-Freenect/src/CinderFreenect.h"; sourceTree = "<group>"; };
+		8505BAF719354651005CAC1D /* TouchController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TouchController.cpp; path = ../src/controls/TouchController.cpp; sourceTree = "<group>"; };
+		8505BAF819354651005CAC1D /* TouchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchController.h; path = ../src/controls/TouchController.h; sourceTree = "<group>"; };
+		8505BAFA193546DC005CAC1D /* ViewFish.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewFish.cpp; path = ../src/views/ViewFish.cpp; sourceTree = "<group>"; };
+		8505BAFB193546DC005CAC1D /* ViewFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewFish.h; path = ../src/views/ViewFish.h; sourceTree = "<group>"; };
 		8514E53D19353DFB00F046B2 /* MathUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MathUtils.cpp; sourceTree = "<group>"; };
 		8514E53E19353DFB00F046B2 /* MathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUtils.h; sourceTree = "<group>"; };
 		8514E53F19353DFB00F046B2 /* MeshUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshUtils.cpp; sourceTree = "<group>"; };
@@ -124,6 +130,8 @@
 				8514E55519353E2400F046B2 /* GlobalSettings.cpp */,
 				8514E55919353EFF00F046B2 /* SceneEtang.cpp */,
 				8514E55819353E5600F046B2 /* views */,
+				8505BAF5193545EF005CAC1D /* controls */,
+				8505BAF619354606005CAC1D /* components */,
 				8514E53C19353DFB00F046B2 /* bongiovi */,
 			);
 			name = Source;
@@ -181,6 +189,8 @@
 				47E6C99F2800413481C4F784 /* Resources.h */,
 				EC3422D68E404504AA72D4DC /* EEtang_Prefix.pch */,
 				8514E55A19353EFF00F046B2 /* SceneEtang.h */,
+				8505BAF819354651005CAC1D /* TouchController.h */,
+				8505BAFB193546DC005CAC1D /* ViewFish.h */,
 				8514E55D1935437300F046B2 /* ViewBg.h */,
 			);
 			name = Headers;
@@ -209,6 +219,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8505BAF5193545EF005CAC1D /* controls */ = {
+			isa = PBXGroup;
+			children = (
+				8505BAF719354651005CAC1D /* TouchController.cpp */,
+			);
+			name = controls;
+			sourceTree = "<group>";
+		};
+		8505BAF619354606005CAC1D /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
 		8514E53C19353DFB00F046B2 /* bongiovi */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				8514E55C1935437300F046B2 /* ViewBg.cpp */,
+				8505BAFA193546DC005CAC1D /* ViewFish.cpp */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -345,6 +371,8 @@
 				8514E54E19353DFB00F046B2 /* View.cpp in Sources */,
 				8514E55719353E2400F046B2 /* GlobalSettings.cpp in Sources */,
 				5B637C0E097442028F43D1D7 /* registration.c in Sources */,
+				8505BAFC193546DC005CAC1D /* ViewFish.cpp in Sources */,
+				8505BAF919354651005CAC1D /* TouchController.cpp in Sources */,
 				A603FA08E0854115A1ED52E3 /* tilt.c in Sources */,
 				8514E54B19353DFB00F046B2 /* Scene.cpp in Sources */,
 				118A35717446455DA76DBEE6 /* usb_libusb10.c in Sources */,
