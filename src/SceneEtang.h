@@ -14,6 +14,8 @@
 #include "cinder/gl/Texture.h"
 #include "cinder/gl/Fbo.h"
 #include "Scene.h"
+#include "Fish.h"
+#include "FishController.h"
 #include "ViewBg.h"
 #include "ViewFish.h"
 
@@ -23,14 +25,18 @@ class SceneEtang : public Scene {
 public:
     SceneEtang();
     void                    render();
+//    void                    update();
     
     
 private:
     void                    _initTextures();
     void                    _initViews();
+    FishController*         _fishes;
     
     ViewBg*                 _vBg;
+    ViewFish*               _vFish;
     gl::TextureRef          _texBg;
+    gl::TextureRef          _texDot;
 };
 
 #endif /* defined(__EEtang__SceneEtang__) */

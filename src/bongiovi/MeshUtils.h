@@ -17,7 +17,7 @@ using namespace ci;
 namespace bongiovi {
     class MeshUtils {
         public :
-        static gl::VboMesh      createPlane(int size, int segments);
+        static gl::VboMesh      createPlane(float size, int segments);
     };
 }
 

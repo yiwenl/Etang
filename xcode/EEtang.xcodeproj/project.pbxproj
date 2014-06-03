@@ -32,6 +32,8 @@
 		8514E55719353E2400F046B2 /* GlobalSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8514E55519353E2400F046B2 /* GlobalSettings.cpp */; };
 		8514E55B19353EFF00F046B2 /* SceneEtang.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8514E55919353EFF00F046B2 /* SceneEtang.cpp */; };
 		8514E55E1935437300F046B2 /* ViewBg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8514E55C1935437300F046B2 /* ViewBg.cpp */; };
+		8560AE0F193E7E7C001C1223 /* Fish.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8560AE0D193E7E7C001C1223 /* Fish.cpp */; };
+		8560AE12193E8099001C1223 /* FishController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8560AE10193E8099001C1223 /* FishController.cpp */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A251217EE4BB4D0ABD13C725 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D827D5CEC7490CAE105478 /* IOKit.framework */; };
 		A603FA08E0854115A1ED52E3 /* tilt.c in Sources */ = {isa = PBXBuildFile; fileRef = 5292147A41104C9BA364A95C /* tilt.c */; };
@@ -84,6 +86,10 @@
 		8514E55A19353EFF00F046B2 /* SceneEtang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneEtang.h; path = ../src/SceneEtang.h; sourceTree = "<group>"; };
 		8514E55C1935437300F046B2 /* ViewBg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewBg.cpp; path = ../src/views/ViewBg.cpp; sourceTree = "<group>"; };
 		8514E55D1935437300F046B2 /* ViewBg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewBg.h; path = ../src/views/ViewBg.h; sourceTree = "<group>"; };
+		8560AE0D193E7E7C001C1223 /* Fish.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Fish.cpp; path = ../src/components/Fish.cpp; sourceTree = "<group>"; };
+		8560AE0E193E7E7C001C1223 /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fish.h; path = ../src/components/Fish.h; sourceTree = "<group>"; };
+		8560AE10193E8099001C1223 /* FishController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FishController.cpp; path = ../src/components/FishController.cpp; sourceTree = "<group>"; };
+		8560AE11193E8099001C1223 /* FishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FishController.h; path = ../src/components/FishController.h; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* EEtang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EEtang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B6B602B5164B80AEB995C8 /* core.c */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = core.c; path = "../blocks/Cinder-Freenect/src/freenect/core.c"; sourceTree = "<group>"; };
 		CD15615AAED74D1E8B0DDA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -192,6 +198,8 @@
 				8505BAF819354651005CAC1D /* TouchController.h */,
 				8505BAFB193546DC005CAC1D /* ViewFish.h */,
 				8514E55D1935437300F046B2 /* ViewBg.h */,
+				8560AE0E193E7E7C001C1223 /* Fish.h */,
+				8560AE11193E8099001C1223 /* FishController.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -230,6 +238,8 @@
 		8505BAF619354606005CAC1D /* components */ = {
 			isa = PBXGroup;
 			children = (
+				8560AE0D193E7E7C001C1223 /* Fish.cpp */,
+				8560AE10193E8099001C1223 /* FishController.cpp */,
 			);
 			name = components;
 			sourceTree = "<group>";
@@ -364,12 +374,14 @@
 				8514E54C19353DFB00F046B2 /* SceneQuat.cpp in Sources */,
 				AC93C7DA6E2A4691973DBC3F /* CinderFreenect.cpp in Sources */,
 				8514E54A19353DFB00F046B2 /* MeshUtils.cpp in Sources */,
+				8560AE12193E8099001C1223 /* FishController.cpp in Sources */,
 				BE5ED79AE807487BB167D9D6 /* cameras.c in Sources */,
 				103C2A8CD7734AFCAC3E23E5 /* core.c in Sources */,
 				8514E55B19353EFF00F046B2 /* SceneEtang.cpp in Sources */,
 				8514E54D19353DFB00F046B2 /* Utils.cpp in Sources */,
 				8514E54E19353DFB00F046B2 /* View.cpp in Sources */,
 				8514E55719353E2400F046B2 /* GlobalSettings.cpp in Sources */,
+				8560AE0F193E7E7C001C1223 /* Fish.cpp in Sources */,
 				5B637C0E097442028F43D1D7 /* registration.c in Sources */,
 				8505BAFC193546DC005CAC1D /* ViewFish.cpp in Sources */,
 				8505BAF919354651005CAC1D /* TouchController.cpp in Sources */,

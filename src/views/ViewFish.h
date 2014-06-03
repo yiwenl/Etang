@@ -14,12 +14,13 @@
 #include "View.h"
 
 using namespace bongiovi;
+using namespace ci::app;
 
 class ViewFish : public View {
 public:
     ViewFish();
     ViewFish(string vsPath, string fsPath);
-    void                    render(gl::TextureRef);
+    void                    render(gl::TextureRef, Vec3f pos);
     
 private:
     void                    _init();

@@ -7,9 +7,11 @@
 //
 
 #include "ViewFish.h"
+#include "MeshUtils.h"
 
-
-ViewFish::ViewFish() {}
+ViewFish::ViewFish() : View("shaders/fish.vert", "shaders/fish.frag") {
+    _init();
+}
 
 ViewFish::ViewFish(string vsPath, string fsPath) : View(vsPath, fsPath) {
     _init();
@@ -17,13 +19,15 @@ ViewFish::ViewFish(string vsPath, string fsPath) : View(vsPath, fsPath) {
 
 
 void ViewFish::_init() {
-    
+    mesh = bongiovi::MeshUtils::createPlane(.02, 1);
 }
 
 
-void ViewFish::render(gl::TextureRef texture) {
+void ViewFish::render(gl::TextureRef texture, Vec3f pos) {
     shader->bind();
     shader->uniform("texture", 0);
+    shader->uniform("position", pos);
+    shader->uniform("ratio", float(getWindowWidth())/(float(getWindowHeight())) );
     texture->bind();
     gl::draw(mesh);
     texture->unbind();

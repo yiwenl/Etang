@@ -33,6 +33,9 @@ void EEtangApp::setup() {
     srand(time(NULL));
     
     gl::enable( GL_TEXTURE_2D );
+    gl::disable( GL_DEPTH_TEST );
+    gl::enable( GL_BLEND );
+    gl::enableAlphaBlending();
     
     _scene = new SceneEtang();
     _params = params::InterfaceGl::create( "Etang", Vec2i( 300, getWindowHeight()-30 ) );
@@ -58,17 +61,23 @@ void EEtangApp::mouseWheel( MouseEvent event ){
 
 void EEtangApp::mouseDown( MouseEvent event ){
     GlobalSettings::getInstance().pos.set(event.getPos());
+    GlobalSettings::getInstance().pos.y = getWindowHeight() - GlobalSettings::getInstance().pos.y;
     GlobalSettings::getInstance().isMouseDown = true;
 }
 
 void EEtangApp::mouseUp( MouseEvent event ){
     GlobalSettings::getInstance().pos.set(event.getPos());
+    GlobalSettings::getInstance().pos.y = getWindowHeight() - GlobalSettings::getInstance().pos.y;
+
     GlobalSettings::getInstance().isMouseDown = false;
 }
 
 void EEtangApp::mouseDrag( MouseEvent event ){
     GlobalSettings::getInstance().pos.set(event.getPos());
+    GlobalSettings::getInstance().pos.y = getWindowHeight() - GlobalSettings::getInstance().pos.y;
+
 }
+
 
 void EEtangApp::mouseMove( MouseEvent event ){
 }

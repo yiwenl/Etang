@@ -11,7 +11,7 @@
 using namespace std;
 using namespace bongiovi;
 
-gl::VboMesh MeshUtils::createPlane(int size, int segments) {
+gl::VboMesh MeshUtils::createPlane(float size, int segments) {
     gl::VboMesh::Layout layout;
     layout.setStaticIndices();
     layout.setStaticTexCoords2d();
