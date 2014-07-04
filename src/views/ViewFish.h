@@ -20,7 +20,7 @@ class ViewFish : public View {
 public:
     ViewFish();
     ViewFish(string vsPath, string fsPath);
-    void                    render(gl::TextureRef, Vec3f pos);
+    void                    render(gl::TextureRef, Vec3f pos, float rotation);
     
 private:
     void                    _init();

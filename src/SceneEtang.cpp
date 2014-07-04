@@ -22,6 +22,7 @@ SceneEtang::SceneEtang() {
 void SceneEtang::_initTextures() {
     _texBg      = Utils::createTexture("common/etangBg.jpg");
     _texDot     = Utils::createTexture("common/dot.png");
+    _texFish    = Utils::createTexture("common/fish.png");
 }
 
 
@@ -46,6 +47,6 @@ void SceneEtang::render() {
         loc.set((*it)->location);
         loc.x = (loc.x / (float)getWindowWidth() - .5) * 2.0;
         loc.y = (loc.y / (float)getWindowHeight() - .5) * 2.0;
-        _vFish->render(_texDot, loc);
+        _vFish->render(_texFish, loc, (*it)->rotation);
     }
 }

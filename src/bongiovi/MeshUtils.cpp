@@ -29,10 +29,10 @@ gl::VboMesh MeshUtils::createPlane(float size, int segments) {
     
     for(j=0; j<numSeg; j++) {
         for(i=0; i<numSeg; i++) {
-            positions.push_back(Vec3f(-startPos + i*segSize,       -startPos + j*segSize,   0));
-            positions.push_back(Vec3f(-startPos + (i+1)*segSize,   -startPos + j*segSize,   0));
-            positions.push_back(Vec3f(-startPos + (i+1)*segSize,   -startPos + (j+1)*segSize,   0));
-            positions.push_back(Vec3f(-startPos + i*segSize,       -startPos + (j+1)*segSize,   0));
+            positions.push_back(Vec3f(-startPos + i*segSize,       startPos - j*segSize,   0));
+            positions.push_back(Vec3f(-startPos + (i+1)*segSize,   startPos - j*segSize,   0));
+            positions.push_back(Vec3f(-startPos + (i+1)*segSize,   startPos - (j+1)*segSize,   0));
+            positions.push_back(Vec3f(-startPos + i*segSize,       startPos - (j+1)*segSize,   0));
             
             coords.push_back(Vec2f(uvBase*i, uvBase*j));
             coords.push_back(Vec2f(uvBase*(i+1), uvBase*j));

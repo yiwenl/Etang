@@ -37,6 +37,7 @@ private:
     ViewFish*               _vFish;
     gl::TextureRef          _texBg;
     gl::TextureRef          _texDot;
+    gl::TextureRef          _texFish;
 };
 
 #endif /* defined(__EEtang__SceneEtang__) */

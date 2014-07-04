@@ -25,7 +25,7 @@ void FishController::_init() {
         loc.x               = MathUtils::random(getWindowWidth());
         loc.y               = MathUtils::random(getWindowHeight());
         Fish* f             = new Fish(loc);
-        f->mass             = MathUtils::random(1, 10);
+        f->mass             = MathUtils::random(30, 20);
         f->velocity.x       = MathUtils::random(-1, 1);
         f->velocity.y       = MathUtils::random(-1, 1);
         _fishes.push_back(f);
@@ -39,7 +39,11 @@ void FishController::update() {
     Vec3f center(GlobalSettings::getInstance().pos, 0.0);
     vector<Fish*>::iterator it;
     for( it = _fishes.begin() ; it!= _fishes.end(); it++) {
-        (*it)->arrive(center);
+        if(GlobalSettings::getInstance().isMouseDown){
+            (*it)->flock(_fishes);
+            (*it)->arrive(center);
+        }
+        else (*it)->wonder();
         (*it)->update();
     }
 }
