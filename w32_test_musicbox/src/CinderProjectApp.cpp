@@ -8,6 +8,9 @@
 
 using namespace ci;
 using namespace ci::app;
+const int32_t gTones[] = { 0, 4, 7, 11, 12, 16, 19, 23};
+const int32_t gToneCount = 8;
+
 
 const uint32_t gFreqs[] = { 261, 330, 392, 493, 523, 659, 783 };
 const uint32_t gFreqCount = 7;
@@ -39,13 +42,13 @@ void AudioGenerativeAdvancedApp::setup()
 void AudioGenerativeAdvancedApp::mouseDown( MouseEvent event )
 {
 	int idx = ( event.getX() / (float)getWindowWidth() ) * gFreqCount;
-	
-	uint32_t freq = gFreqs[idx];
+	int tidx = ( event.getY() / (float)getWindowHeight() ) * gToneCount;
+	uint32_t freq = gFreqs[idx]*ci::math<float>::pow(2.0, (gTones[tidx]-12)/12.0f);
 	audio::Output::play( audio::createCallback( new SineWave( freq, 1.0 ), &SineWave::getData, true ) );
 
 	idx = ( event.getY() / (float)getWindowHeight() ) * gFreqCount;
 	freq = gFreqs[idx];
-	audio::Output::play( audio::createCallback( new SineWave( freq, 1.0 ), &SineWave::getData, true ) );
+	//audio::Output::play( audio::createCallback( new SineWave( freq, 1.0 ), &SineWave::getData, true ) );
 }
 
 void AudioGenerativeAdvancedApp::draw()

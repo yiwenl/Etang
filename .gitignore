@@ -46,3 +46,7 @@ w32_test_musicbox/vc10/Debug/Resources.res
 w32_test_musicbox/vc10/Debug/vc100.idb
 w32_test_musicbox/vc10/Debug/vc100.pdb
 w32_test_musicbox/src/CinderProjectApp.cpp.old
+w32_test_musicbox/vc10/Debug/CinderProject.vcxprojResolveAssemblyReference.cache
+w32_test_musicbox/vc10/Debug/link.5664-cvtres.read.1.tlog
+w32_test_musicbox/vc10/Debug/link.5664-cvtres.write.1.tlog
+*.tlog
