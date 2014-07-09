@@ -8,6 +8,8 @@
 
 #include "ViewDots.h"
 #include "MathUtils.h"
+#include "Model.h"
+#include "Particle.h"
 
 using namespace etang;
 using namespace bongiovi::utils;
@@ -22,23 +24,17 @@ ViewDots::ViewDots(string vsPath, string fsPath) : View(vsPath, fsPath) {
 
 
 void ViewDots::_init() {
-    int numParticles    = 1000;
-    int range           = 1000;
-    int i               = 0;
-    float               tx, ty, tz;
-    
     vector<uint> indices;
     vector<Vec3f> positions;
+    vector<Particle*> particles = Model::getInstance().controller->getParticles();
     
-    while(i++ < numParticles) {
-        tx = MathUtils::random(-range, range);
-        ty = MathUtils::random(-range, range);
-        tz = MathUtils::random(-range, range);
-        
-        positions.push_back(Vec3f(tx,   ty,   tz));
-        indices.push_back(i);
+    vector<Particle*>::iterator it;
+    int count = 0;
+    for(it = particles.begin(); it!=particles.end(); it++) {
+        positions.push_back((*it)->location);
+        indices.push_back(count);
+        count ++;
     }
-    
     
     gl::VboMesh::Layout layout;
     layout.setStaticIndices();
@@ -47,11 +43,25 @@ void ViewDots::_init() {
     mesh = gl::VboMesh(positions.size(), positions.size(), layout, GL_POINTS);
     mesh.bufferPositions(positions);
     mesh.bufferIndices(indices);
+}
 
+
+void ViewDots::_updatePositions() {
+    vector<Particle*> particles = Model::getInstance().controller->getParticles();
+    vector<Vec3f> positions;
+    
+    vector<Particle*>::iterator it;
+    for(it = particles.begin(); it!=particles.end(); it++) {
+        positions.push_back((*it)->location);
+    }
+    
+    mesh.bufferPositions(positions);
 }
 
 
 void ViewDots::render() {
+    _updatePositions();
+    
     shader->bind();
     gl::draw(mesh);
     shader->unbind();

@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include "GlobalSettings.h"
+#include "ParticleController.h"
 
 namespace etang {
     
@@ -21,14 +22,14 @@ namespace etang {
             return settings;
         };
         
+        GlobalSettings*         settings;
+        ParticleController*     controller;
+        
+        
         private :
         Model() {
             _init();
         };
-        
-        
-        GlobalSettings*         settings;
-        
         void                    _init();
     };
 }

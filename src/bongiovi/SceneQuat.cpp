@@ -62,6 +62,7 @@ void SceneQuat::update() {
     }
     
     _currDiff += ( _diff - _currDiff) * _easing;
+    if(_currDiff.x == 0 && _currDiff.y == 0) _currDiff.x = _currDiff.y = .1;
 
     
     Vec3f v = Vec3f(_currDiff.x, -_currDiff.y, 0.0f);

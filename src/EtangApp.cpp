@@ -19,6 +19,7 @@ class EtangApp : public AppNative {
     void mouseDrag( MouseEvent event );
     void mouseMove( MouseEvent event );
     void mouseWheel( MouseEvent event );
+    void keyDown( KeyEvent event );
     
     private :
     SceneEtang*                 _scene;
@@ -51,6 +52,7 @@ void EtangApp::setup()
 void EtangApp::update()
 {
     _scene->update();
+    Model::getInstance().controller->update();
 }
 
 void EtangApp::draw()
@@ -84,6 +86,16 @@ void EtangApp::mouseDrag( MouseEvent event ){
 
 void EtangApp::mouseMove( MouseEvent event ){
     _scene->sceneQuat->mouseMove(event.getPos());
+}
+
+
+
+void EtangApp::keyDown( KeyEvent event) {
+    switch(event.getChar()) {
+        case 'f' :
+            setFullScreen(!isFullScreen());
+            break;
+    }
 }
 
 

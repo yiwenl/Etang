@@ -20,9 +20,11 @@
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		774075A11B3C41C793D269DC /* registration.c in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF7834F40D4B5781B6D45B /* registration.c */; };
+		850E5CF2196828C400C045BA /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 850E5CF0196828C400C045BA /* Particle.cpp */; };
 		853FB8A31967F20800B5A593 /* ViewDots.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853FB8A11967F20800B5A593 /* ViewDots.cpp */; };
 		853FB8A81967F6E800B5A593 /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853FB8A61967F6E800B5A593 /* Model.cpp */; };
 		853FB8AB1967F7ED00B5A593 /* GlobalSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853FB8A91967F7ED00B5A593 /* GlobalSettings.cpp */; };
+		8555F23D196D9F9300DB4BDF /* ParticleController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8555F23B196D9F9300DB4BDF /* ParticleController.cpp */; };
 		85CB6C4B1967F02900F29C52 /* SceneEtang.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85CB6C491967F02900F29C52 /* SceneEtang.cpp */; };
 		85E6E90F1967091A00B70860 /* MathUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85E6E9031967091A00B70860 /* MathUtils.cpp */; };
 		85E6E9101967091A00B70860 /* MeshUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85E6E9051967091A00B70860 /* MeshUtils.cpp */; };
@@ -60,12 +62,16 @@
 		6942C8EF12B745529D80923E /* core.c */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = core.c; path = "../blocks/Cinder-Freenect/src/freenect/core.c"; sourceTree = "<group>"; };
 		6E8C3F9D1068405FA92BE5E3 /* Etang_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Etang_Prefix.pch; sourceTree = "<group>"; };
 		7275486C6C374436BF392059 /* CinderFreenect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = CinderFreenect.cpp; path = "../blocks/Cinder-Freenect/src/CinderFreenect.cpp"; sourceTree = "<group>"; };
+		850E5CF0196828C400C045BA /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle.cpp; path = ../src/Particle.cpp; sourceTree = "<group>"; };
+		850E5CF1196828C400C045BA /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../src/Particle.h; sourceTree = "<group>"; };
 		853FB8A11967F20800B5A593 /* ViewDots.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewDots.cpp; path = ../src/etang/ViewDots.cpp; sourceTree = "<group>"; };
 		853FB8A21967F20800B5A593 /* ViewDots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewDots.h; path = ../src/etang/ViewDots.h; sourceTree = "<group>"; };
 		853FB8A61967F6E800B5A593 /* Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Model.cpp; path = ../src/etang/Model.cpp; sourceTree = "<group>"; };
 		853FB8A71967F6E800B5A593 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model.h; path = ../src/etang/Model.h; sourceTree = "<group>"; };
 		853FB8A91967F7ED00B5A593 /* GlobalSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlobalSettings.cpp; sourceTree = "<group>"; };
 		853FB8AA1967F7ED00B5A593 /* GlobalSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalSettings.h; sourceTree = "<group>"; };
+		8555F23B196D9F9300DB4BDF /* ParticleController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleController.cpp; path = ../src/etang/ParticleController.cpp; sourceTree = "<group>"; };
+		8555F23C196D9F9300DB4BDF /* ParticleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleController.h; path = ../src/etang/ParticleController.h; sourceTree = "<group>"; };
 		85CB6C491967F02900F29C52 /* SceneEtang.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneEtang.cpp; path = ../src/etang/SceneEtang.cpp; sourceTree = "<group>"; };
 		85CB6C4A1967F02900F29C52 /* SceneEtang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneEtang.h; path = ../src/etang/SceneEtang.h; sourceTree = "<group>"; };
 		85E6E9031967091A00B70860 /* MathUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MathUtils.cpp; sourceTree = "<group>"; };
@@ -184,6 +190,8 @@
 				853FB8A21967F20800B5A593 /* ViewDots.h */,
 				853FB8A71967F6E800B5A593 /* Model.h */,
 				853FB8AA1967F7ED00B5A593 /* GlobalSettings.h */,
+				850E5CF1196828C400C045BA /* Particle.h */,
+				8555F23C196D9F9300DB4BDF /* ParticleController.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -234,6 +242,8 @@
 		853FB8A41967F59600B5A593 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				850E5CF0196828C400C045BA /* Particle.cpp */,
+				8555F23B196D9F9300DB4BDF /* ParticleController.cpp */,
 			);
 			name = components;
 			sourceTree = "<group>";
@@ -363,6 +373,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				47A94122F42E474AA02D748B /* EtangApp.cpp in Sources */,
+				850E5CF2196828C400C045BA /* Particle.cpp in Sources */,
+				8555F23D196D9F9300DB4BDF /* ParticleController.cpp in Sources */,
 				85E6E90F1967091A00B70860 /* MathUtils.cpp in Sources */,
 				85E6E9121967091A00B70860 /* SceneQuat.cpp in Sources */,
 				853FB8AB1967F7ED00B5A593 /* GlobalSettings.cpp in Sources */,

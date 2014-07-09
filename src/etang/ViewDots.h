@@ -25,6 +25,7 @@ namespace etang {
         
     private:
         void                    _init();
+        void                    _updatePositions();
     };
     
 }

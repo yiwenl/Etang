@@ -8,6 +8,7 @@
 
 #include "Model.h"
 
+
 using namespace etang;
 using namespace std;
 
@@ -15,4 +16,5 @@ void Model::_init(){
     cout << "INIT MODEL" << endl;
     
     settings        = new GlobalSettings();
+    controller      = new ParticleController(500);
 }
