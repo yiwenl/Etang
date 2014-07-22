@@ -11,11 +11,12 @@
 
 #include <iostream>
 #include "Particle.h"
+#include "GlobalSettings.h"
 
 namespace etang {
     class ParticleController {
         public :
-        ParticleController(int);
+        ParticleController(int, GlobalSettings*);
         vector<Particle*>       getParticles();
         void                    update();
         
@@ -24,6 +25,7 @@ namespace etang {
         int                     _numParticles;
         void                    _init();
         vector<Particle*>       _particles;
+        GlobalSettings*         _settings;
     };
 }
 

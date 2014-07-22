@@ -28,6 +28,7 @@ namespace etang {
         
         private :
         void                _pullToCenter();
+        void                _pullToDepth();
     };
 }
 

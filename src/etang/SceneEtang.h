@@ -21,7 +21,7 @@ using namespace bongiovi;
 namespace etang {
     class SceneEtang : public Scene {
     public:
-        SceneEtang();
+        SceneEtang(ci::app::WindowRef);
         void                    render();
         
         

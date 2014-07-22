@@ -21,6 +21,8 @@ namespace etang {
     public:
         GlobalSettings();
         
+        int     numParticles    = 250;
+        float   maxDistance     = 50.0f;
     private:
         void                    _init();
     };

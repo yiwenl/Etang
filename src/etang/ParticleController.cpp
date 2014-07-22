@@ -13,8 +13,9 @@ using namespace etang;
 using namespace bongiovi::utils;
 
 
-ParticleController::ParticleController(int numParticles) {
-    _numParticles = numParticles;
+ParticleController::ParticleController(int numParticles, GlobalSettings* settings) {
+    _numParticles   = numParticles;
+    _settings       = settings;
     
     _init();
 }
@@ -24,9 +25,8 @@ void ParticleController::_init() {
     _particles.empty();
     _particles.clear();
     
-    int i = 0;
-    
-    float range = 500;
+    int i               = 0;
+    float range         = _settings->maxDistance;
     float velocityRange = 1.0f;
     
     while(i < _numParticles) {

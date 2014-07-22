@@ -7,6 +7,8 @@
 //
 
 #include "Particle.h"
+#include "Model.h"
+//#define maxDistance 100.0f
 
 using namespace etang;
 
@@ -27,6 +29,7 @@ Particle::Particle(float x, float y, float z) {
 
 void Particle::update(vector<Particle*> particles) {
     _pullToCenter();
+    _pullToDepth();
     velocity += acceleration;
     location += velocity;
     acceleration.set(0, 0, 0);
@@ -36,11 +39,25 @@ void Particle::update(vector<Particle*> particles) {
 void Particle::_pullToCenter() {
     Vec3f dirToCenter = Vec3f(location);
     float distToCenter = dirToCenter.length();
-    float maxDistance = 500.0f;
+    float maxDistance = Model::getInstance().settings->maxDistance;
     
     if(distToCenter > maxDistance) {
         dirToCenter.normalize();
         float pullStrength = .0001f;
         acceleration -= dirToCenter * ( ( distToCenter - maxDistance ) * pullStrength );
+    }
+}
+
+
+void Particle::_pullToDepth() {
+    Vec3f dirToDepth = Vec3f(location);
+    float distToDepth = dirToDepth.z;
+    float maxDistance = Model::getInstance().settings->maxDistance;
+    
+    if(distToDepth > maxDistance) {
+        dirToDepth.x = dirToDepth.y = 0.0f;
+        dirToDepth.normalize();
+        float pullStrength = .0001f;
+        acceleration -= dirToDepth * ( ( distToDepth - maxDistance ) * pullStrength );
     }
 }

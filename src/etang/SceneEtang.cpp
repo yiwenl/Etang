@@ -13,7 +13,7 @@
 using namespace etang;
 using namespace bongiovi::utils;
 
-SceneEtang::SceneEtang() {
+SceneEtang::SceneEtang(ci::app::WindowRef window) : Scene(window) {
     _initTextures();
     _initViews();
 }

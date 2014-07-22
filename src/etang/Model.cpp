@@ -16,5 +16,5 @@ void Model::_init(){
     cout << "INIT MODEL" << endl;
     
     settings        = new GlobalSettings();
-    controller      = new ParticleController(500);
+    controller      = new ParticleController(settings->numParticles, settings);
 }

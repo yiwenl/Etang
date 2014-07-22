@@ -12,24 +12,34 @@
 #include <iostream>
 #include "cinder/Camera.h"
 #include "SceneQuat.h"
+#include "cinder/App/App.h"
 
 using namespace ci;
+using namespace ci::app;
 using namespace std;
 
 namespace bongiovi {
     class Scene {
         public :
-        Scene();
+        Scene(app::WindowRef window);
         void render();
         void update();
         float				cameraDistance;
         SceneQuat*          sceneQuat;
         
+        void	mouseDown( ci::app::MouseEvent &event );
+        void	mouseUp( ci::app::MouseEvent &event );
+        void	mouseMove( ci::app::MouseEvent &event );
+        void	mouseDrag( ci::app::MouseEvent &event );
+        void	mouseWheel( ci::app::MouseEvent &event );
+        void	windowDraw();
+        Vec3f				_eye, _center, _up;
         
         protected :
+        app::WindowRef           _window;
         CameraPersp*		_camera;
         CameraOrtho*        _cameraOrtho;
-        Vec3f				_eye, _center, _up;
+        ci::signals::scoped_connection	mCbMouseDown, mCbMouseDrag, mCbMouseUp, mCbMouseMove, mCbMouseWheel, mCbUpdate;
         
     };
 }
